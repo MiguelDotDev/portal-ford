@@ -1,0 +1,25 @@
+.contenedorTexto {
+  margin-top: 20vh;
+}
+.contenedorTexto h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+.contenedorTexto .container-fluid {
+  margin-top: 15vh;
+}
+
+.botonera {
+  font-size: 1.4em !important;
+}
+
+.imgClass {
+  box-shadow: 10px 10px 27px -9px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 27px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 27px -9px rgba(0, 0, 0, 0.75);
+}/*# sourceMappingURL=financiamiento.css.map */

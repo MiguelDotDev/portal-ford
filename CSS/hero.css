@@ -1,0 +1,62 @@
+#hero {
+    height: 85vh;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero video {
+    width: 100%;
+    height: 85%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    object-fit: cover;
+    font-family: 'object-fit: cover;';
+}
+
+#hero::after {
+    width: 100%;
+    height: 85%;
+    content: '';
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#hero .texture {
+    width: 100%;
+    height: 85%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    background: url("../IMG/hero-texture.png");
+    opacity: .3;
+}
+
+#hero .caption {
+    position: relative;
+    z-index: 20;
+    text-align: center;
+    color: white;
+}
+
+.caption>h1 {
+    font-size: 3em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.caption>p {
+    font-size: 1.5em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}

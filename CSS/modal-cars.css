@@ -1,0 +1,45 @@
+#plantillasCarros img {
+  width: 200px;
+  transition: 0.3s;
+}
+#plantillasCarros h4 {
+  padding-bottom: 20px;
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+#plantillasCarros .row a {
+  color: black;
+  transition: 0.2s;
+  text-decoration: none;
+}
+#plantillasCarros .row a:hover {
+  color: rgb(138, 138, 138);
+  cursor: pointer;
+}
+#plantillasCarros .row a:hover img {
+  padding-left: 10px;
+}
+
+#vehiculosModal ul {
+  background-color: #1a3661;
+  text-decoration: none;
+  color: white !important;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px 5px 0px 0px;
+}
+#vehiculosModal ul a {
+  color: white;
+  border-bottom: 1px solid transparent;
+}
+#vehiculosModal ul a:hover {
+  color: #c4c4c4;
+  cursor: pointer;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.activoItemCarros {
+  border-bottom: 1px solid #ffffff !important;
+}/*# sourceMappingURL=modal-cars.css.map */

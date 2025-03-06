@@ -1,0 +1,54 @@
+$Ford-Primary: #1a3661;
+$sizeIMG: 200px;
+
+#plantillasCarros{
+    img{
+        width: $sizeIMG;
+        transition: .3s;
+    }
+    h4{
+        padding-bottom: 20px;
+        font-size: 1.5em;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+    .row{
+        a {
+            color: black;
+            transition: .2s;
+            text-decoration: none;
+        }
+        a:hover {
+            color: rgb(138, 138, 138);
+            cursor: pointer;
+            img{
+                padding-left: $sizeIMG*.05  ;
+            }
+        }
+    }
+}
+
+#vehiculosModal{
+    ul{
+        background-color: $Ford-Primary;
+        text-decoration: none;
+        color: white !important;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px 5px 0px 0px;
+        a{
+            color: white;
+            border-bottom: 1px solid transparent;
+        }
+        a:hover{
+            color: #c4c4c4;
+            cursor: pointer;
+            border-bottom: 1px solid #c4c4c4;
+        }
+    }
+}
+
+.activoItemCarros{
+    border-bottom: 1px solid #ffffff !important;
+}

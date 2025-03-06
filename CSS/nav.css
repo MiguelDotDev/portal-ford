@@ -1,0 +1,112 @@
+nav {
+  position: fixed;
+  z-index: 50;
+}
+nav #topNav {
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+nav #buttomNav {
+  background-color: #1a3661;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  transition: 0.5s;
+}
+nav #buttomNav li a {
+  color: rgb(255, 255, 255);
+  border-bottom: 3px solid transparent;
+  transition: 0.5s;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+nav #buttomNav li a:hover {
+  color: rgb(235, 235, 235);
+  border-bottom: 2px solid rgb(235, 235, 235);
+}
+nav #buttomNav .dropdown-item {
+  color: #1a3661 !important;
+}
+
+nav #topNav img {
+  width: 150px;
+  margin: 20px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.navTransparente {
+  background-color: transparent !important;
+}
+.navTransparente img {
+  opacity: 0.3 !important;
+}
+
+#compraModal .modal-header, #servicioModal .modal-header, #miFordModal .modal-header, #tecnologiasModal .modal-header, #contactoModal .modal-header {
+  background-color: #1a3661;
+  color: white;
+}
+#compraModal .modal-body, #servicioModal .modal-body, #miFordModal .modal-body, #tecnologiasModal .modal-body, #contactoModal .modal-body {
+  text-align: center;
+}
+#compraModal .modal-body a, #servicioModal .modal-body a, #miFordModal .modal-body a, #tecnologiasModal .modal-body a, #contactoModal .modal-body a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  transition: 0.4s;
+  border-bottom: 1px solid transparent;
+}
+#compraModal .modal-body a:hover, #servicioModal .modal-body a:hover, #miFordModal .modal-body a:hover, #tecnologiasModal .modal-body a:hover, #contactoModal .modal-body a:hover {
+  color: #1a3661;
+  border-bottom: 1px solid #1a3661;
+  margin-left: 10px;
+}
+#compraModal .modal-footer, #servicioModal .modal-footer, #miFordModal .modal-footer, #tecnologiasModal .modal-footer, #contactoModal .modal-footer {
+  border: none;
+}
+
+#loginModal .modal-header, #registrateModal .modal-header {
+  background-color: #1a3661;
+  color: white;
+}
+#loginModal .modal-body, #registrateModal .modal-body {
+  text-align: start;
+}
+#loginModal .modal-body a, #registrateModal .modal-body a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  transition: 0.4s;
+  border-bottom: 1px solid transparent;
+}
+#loginModal .modal-body a:hover, #registrateModal .modal-body a:hover {
+  color: #1a3661;
+  border-bottom: 1px solid #1a3661;
+  margin-left: 10px;
+}
+#loginModal .modal-footer, #registrateModal .modal-footer {
+  border: none;
+}
+#loginModal label, #registrateModal label {
+  color: #000;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  transition: 0.4s;
+}
+#loginModal .form-control, #registrateModal .form-control {
+  border: none;
+  margin-top: 10px;
+  border-radius: 0;
+  border-bottom: 1px solid black;
+}
+#loginModal .form-grup input, #registrateModal .form-grup input {
+  margin-top: 100px;
+}/*# sourceMappingURL=nav.css.map */

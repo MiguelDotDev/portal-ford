@@ -1,0 +1,128 @@
+$fondo-navTop: rgb(255, 255, 255);
+$fondo-navBottom: #1a3661;
+$color-letra-hover: rgb(235, 235, 235);
+$color-letra-normal: rgb(255, 255, 255);
+
+nav{
+    position:fixed;
+    z-index: 50;
+    #topNav{
+        background-color: $fondo-navTop;
+        transition: .5s;
+    }
+    #buttomNav{
+        background-color: $fondo-navBottom;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        transition: .5s;
+        li a{
+            color: $color-letra-normal;
+            border-bottom: 3px solid transparent;
+            transition: .5s;
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+        li a:hover{
+            color: $color-letra-hover;
+            border-bottom: 2px solid $color-letra-hover;
+        }
+
+        .dropdown-item{
+            color: #1a3661 !important;
+        }
+    }
+}
+
+nav{
+    #topNav{
+        img{
+            width: 150px;
+            margin: 20px;
+            opacity: 1;
+            transition: .5s;
+        }
+    }
+}
+
+.navTransparente{
+    background-color: transparent !important;
+        img{
+            opacity: .3 !important;
+    }
+}
+
+#compraModal, #servicioModal, #miFordModal, #tecnologiasModal, #contactoModal{
+    .modal-header{
+        background-color: $fondo-navBottom;
+        color: white;
+    }
+    .modal-body{
+        text-align: center;
+        a{
+            text-decoration: none;
+            color: #000;
+            font-size: 1em;
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            transition: .4s;
+            border-bottom: 1px solid transparent;
+        }
+        a:hover{
+            color: $fondo-navBottom;
+            border-bottom: 1px solid $fondo-navBottom;
+            margin-left: 10px;
+        }
+    }
+    .modal-footer{
+        border: none;
+    }
+}
+
+#loginModal, #registrateModal{
+    .modal-header{
+        background-color: $fondo-navBottom;
+        color: white;
+    }
+    .modal-body{
+        text-align: start;
+        a{
+            text-decoration: none;
+            color: #000;
+            font-size: 1em;
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            transition: .4s;
+            border-bottom: 1px solid transparent;
+        }
+        a:hover{
+            color: $fondo-navBottom;
+            border-bottom: 1px solid $fondo-navBottom;
+            margin-left: 10px;
+        }
+    }
+    .modal-footer{
+        border: none;
+    }
+    label{
+        color: #000;
+        font-size: 1em;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        transition: .4s;
+    }
+    .form-control{
+        border: none;
+        margin-top: 10px;
+        border-radius: 0;
+        border-bottom: 1px solid black;
+    }
+    .form-grup{
+        input{
+            margin-top: 100px;
+        }
+    }
+}

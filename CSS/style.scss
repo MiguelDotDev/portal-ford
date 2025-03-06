@@ -1,0 +1,107 @@
+$Fondo: rgb(255, 255, 255);
+$Titulos: rgb(0, 0, 0);
+$Ford-Primary: #1a3661;
+$Ford-Secundario: #4c81cf;
+$tamaño-imagen-cards: 150px;
+
+body {
+    background-color: $Fondo;
+}
+
+.TextoInicial{
+    button{
+        font-size: 1.5em;
+        font-family: "Roboto", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        padding: 20px;
+        transition: .3s !important;
+    }
+
+    h2{
+        margin-top: 150px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        border-bottom: 1px solid $Titulos;
+        color: $Titulos;
+        font-size: 3em;
+        margin-bottom: 30px;
+    }
+    h3{
+        font-weight: 900;
+        font-size: 1.5em;
+        color: $Ford-Primary;
+        transition: .5s;
+    }
+    p{
+        font-size: 1em;
+        color: black;
+        font-weight: 100;
+    }
+    .row{
+        .col:hover{
+            cursor: pointer;
+            img{
+                margin-top: -5px;
+            }
+        }
+        .col{
+            img{
+                width: $tamaño-imagen-cards;
+                margin: $tamaño-imagen-cards*.2;
+                transition: .5s;
+            }
+        }
+    }
+}
+
+.ContactanosFlotante{
+    align-items: end;
+    top: 80%;
+    color: $Ford-Primary;
+    position: fixed;
+    z-index: 20;
+    background-color: $Ford-Primary;
+    padding: 15px;
+    margin-left: 15px;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: .3s;
+
+    
+    ion-icon{
+        margin-right: 10px;
+    }
+    
+}
+
+.ContactanosFlotante:hover{
+        color: #a8a8a8;
+}
+
+footer{
+    margin-top: 200px;
+    background-color: #353535;
+    color: white;
+    border-top: 40px solid rgb(114, 114, 114);
+    padding-top: 20px;
+    a{
+        text-decoration:none;
+        color: white;
+    }
+    a:hover{
+        color: rgb(187, 187, 187);
+    }
+}
+
+.botomFooter{
+    background-color: $Ford-Primary;
+    color: white;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}

@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.TextoInicial button {
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  padding: 20px;
+  transition: 0.3s !important;
+}
+.TextoInicial h2 {
+  margin-top: 150px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+.TextoInicial h3 {
+  font-weight: 900;
+  font-size: 1.5em;
+  color: #1a3661;
+  transition: 0.5s;
+}
+.TextoInicial p {
+  font-size: 1em;
+  color: black;
+  font-weight: 100;
+}
+.TextoInicial .row .col:hover {
+  cursor: pointer;
+}
+.TextoInicial .row .col:hover img {
+  margin-top: -5px;
+}
+.TextoInicial .row .col img {
+  width: 150px;
+  margin: 30px;
+  transition: 0.5s;
+}
+
+.ContactanosFlotante {
+  align-items: end;
+  top: 80%;
+  color: #1a3661;
+  position: fixed;
+  z-index: 20;
+  background-color: #1a3661;
+  padding: 15px;
+  margin-left: 15px;
+  border-radius: 50px 50px 50px 50px;
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.ContactanosFlotante ion-icon {
+  margin-right: 10px;
+}
+
+.ContactanosFlotante:hover {
+  color: #a8a8a8;
+}
+
+footer {
+  margin-top: 200px;
+  background-color: #353535;
+  color: white;
+  border-top: 40px solid rgb(114, 114, 114);
+  padding-top: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  color: rgb(187, 187, 187);
+}
+
+.botomFooter {
+  background-color: #1a3661;
+  color: white;
+}
+.botomFooter a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
